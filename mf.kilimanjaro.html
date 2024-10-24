@@ -1,0 +1,2968 @@
+<html lang="en"><head>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script>
+        function toggleText() {
+    var moreText = document.getElementById("moreText");
+    var showMoreButton = document.getElementById("showMoreButton");
+
+    if (moreText.style.display === "none") {
+      moreText.style.display = "inline";
+      showMoreButton.innerHTML = "Show Less";
+    } else {
+      moreText.style.display = "none";
+      showMoreButton.innerHTML = "Show More";
+    }
+  }
+    </script>
+    <script type="module">
+  import Turbo from 'https://cdn.skypack.dev/@hotwired/turbo';
+</script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-CFYN22ZVHV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CFYN22ZVHV');
+</script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Kilimanjaro Christian Medical Centre</title>
+    <meta name="description" content="The Official Kilimanjaro Christan Medical Centre - KCMC Website">
+    <meta name="keywords" content="KCMC Website, KCMC, Kilimanjaro Christan Medical Centre, Kilimanjaro Hospital">
+    <meta name="author" content="Ian Clemence Mosha. &amp; Waziri Ally Amiri">
+  <!-- Add Fancybox CSS -->
+  
+  <link rel="stylesheet" type="text/css" href="https://bmc.go.tz/public/bmc/bootstrap-4.6.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://bmc.go.tz/public/bmc/bootstrap-5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://bmc.go.tz/public/bmc/md-bootstrap/css/mdb.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css?family=Oswald|Alegreya+Sans" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+ <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" integrity="sha512-RWhcC19d8A3vE7kpXq6Ze4GcPfGe3DQWuenhXAbcGiZOaqGojLtWwit1eeM9jLGHFv8hnwpX3blJKGjTsf2HxQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.css">
+ 
+    <style>
+      
+      @font-face {
+    font-family: "LeBeauneNew";
+    src: url("https://demo.goodlayers.com/kingster/homepages/college/wp-content/uploads/sites/2/2020/05/LeBeauneNew.otf");
+    src: url("https://demo.goodlayers.com/kingster/homepages/college/wp-content/uploads/sites/2/2020/05/LeBeauneNew.otf?#iefix") format("embedded-opentype"), url("https://demo.goodlayers.com/kingster/homepages/college/wp-content/uploads/sites/2/2020/05/LeBeauneNew.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+      /* Mocu */
+
+      .text-justify {
+  text-align: justify;
+}
+
+.news_text{
+    line-height: 25px !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    letter-spacing: 0px !important;
+    text-align: left !important;
+    font-family: 'Times New Roman' !important;
+}
+
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    font-size: 16px !important;
+    text-transform: uppercase;
+    padding: 17px 29px 16px;
+    line-height: 1;
+    background-color: #f5f5f5;
+    font-weight: 500;
+    color: rgba(0,0,0,.6);
+    margin: .5rem
+}
+
+
+
+/* bread */
+.breadcrumbsection {
+    border-bottom: 1px solid #e8e8e8;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #646464;
+}
+.breadcrumbsection ul.breadcrumb {
+    background: none;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.breadcrumb ul {
+
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    line-height: 20px;
+}
+.breadcrumb li {
+    padding-right: 6px;
+    margin-bottom: 0px !important;
+    padding-left: 6px;
+}
+
+.breadcrumb>li {
+    display: inline-block;
+}
+
+.actives a {
+    color:#292D7E !important;
+    font-weight: 600;
+   
+}
+
+ 
+
+.breadcrumbsection ul.breadcrumb a {
+    color: #0352b9;
+}
+.breadcrumb>.active {
+    color: #777;
+    background-color: #ffffff !important;
+}
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+.color_caption{
+    color: white !important;
+    font-weight: 700 !important;
+}
+.overlay_caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+
+
+}
+
+.accordion-button:after{
+ color: white !important;
+}
+
+.font-familiy{
+    font-family: "Jost", sans-serif !important;
+    font-weight: 400 !important;
+}
+
+ .executive-card{
+ background-color: rgb(248, 250, 252)!important;
+} 
+
+.about_us_p{
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-align: justify !important;
+}
+
+.about_us_p_direct{
+    font-size: 16px !important;
+    line-height: 24px !important;
+
+}
+.nav-mb{
+    margin-bottom:0px !important;
+}
+.container_nav {
+
+max-width:100% !important;
+
+}
+    .col-inner {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+}
+
+.back-img {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 300px; /* Adjust the height as needed */
+    }
+.video-fit iframe {
+    -o-object-fit: fill;
+    object-fit: fill;
+    
+}
+
+.prevent_exced_row{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+}
+/* news */
+.records1 {
+    margin-bottom: 3rem;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-size: 16px;
+    color: #383838;
+    font-weight: 500;
+    line-height: 1.7em;
+
+}
+
+.blogtitle {
+    color: #292D7E;
+    font-weight: 800;
+    font-size: 26px;
+    padding-bottom: 0px;
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.blogdate {
+    padding-top: -20px;
+    color: #666;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.blogdates {
+    padding-top: -40px;
+    color: #666;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    float: right;
+    text-align: center;
+    font-style: italic;
+    text-indent: 0;
+}
+
+ .section_show_news {
+    position: relative;
+    z-index: 2;
+}
+
+  @import  url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+  .mg-menu-full {
+    position: relative;
+}
+
+#main_kcmc_news,#wrapper_kcmc_news {
+    background-color: #fff;
+    position: relative
+}
+.row_kcmc_news {
+    padding: 0
+}
+
+.row_kcmc_news {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.tab-pane{
+    background-color: white !important;
+}
+
+.small-12_kcmc_news{
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+
+.col_kcmc_news {
+margin: 0;
+    padding: 0 15px 30px;
+    position: relative;
+    width: 100%;
+}
+.col-inner_kcmc_news {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+}
+.mb_kcmc_news:last-child {
+    margin-bottom: 0;
+}
+.video-fit {
+    background-position: 50% 50%;
+    background-size: cover;
+    height: auto;
+    overflow: hidden;
+    padding-top: 100%;
+    position: relative;
+}
+.video-fit iframe {
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+.content-area> ul {
+    width: 50%;
+    list-style-position: outside;
+    margin: 0 0 10px;
+    padding: 0;
+ 
+} 
+.content-area ul li, ul.bullet-list li {
+    margin: 0 0 8px;
+    position: relative;
+    padding-left: 15px;
+}
+.content-area .nav-pills>li>a {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background: #c9c9c9;
+    color: #FFF;
+    font-weight: 500;
+}
+.nav-pills>li>a, .nav-pills>li>a, .nav-pills>a {
+    background: #d3d3d3;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav-pills>li {
+    float: left;
+}
+.nav>li {
+    position: relative;
+    display: block;
+}
+.row_kcmc_news .nav-pills>li {
+    display: inline-block;
+    float: none;
+}
+.video-fit iframe {
+    bottom: 0;
+    font-family: "object-fit: cover;";
+    height: 100%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    object-fit: fill;
+}
+iframe {
+    max-width: 100%;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .director-sec {
+    width: 70% !important;
+    text-align: center;
+
+    margin-left: auto !important;
+    height: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media (max-width: 767px) {
+.content-area> ul {
+    width: 100%;
+    list-style-position: outside;
+    margin: 0 0 10px;
+    padding: 0;
+ 
+} 
+
+}
+
+
+@media  screen and (max-width: 576px) {
+  /* body {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  } */
+
+}
+@media  screen and (min-width: 550px)
+{
+.medium-4_kcmc_news {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+}
+.img-director {
+    max-width: 32.30% !important;
+    height: auto;
+}
+}
+@media  screen and (min-width: 850px)
+{
+.large-4_kcmc_news {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+}
+}
+@media  screen and (max-width: 849px)
+{
+.col_kcmc_news {
+    padding-bottom: 30px;
+}
+}
+@media  screen and (min-width: 850px)
+ {
+  .row_kcmc_news:hover .col_kcmc_news-hover-focus .col_kcmc_news:not(:hover) {
+    opacity: .6
+}
+}
+@media  screen and (max-width: 849px) 
+{
+    .col_kcmc_news {
+        padding-bottom: 30px
+    }
+}
+ .navbar-wp {
+    background: #202f5b;
+    position: inherit;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    z-index: 999;
+    transition: all 1s ease-out;
+    border-radius: 0;
+    padding: 0;
+    border: none;
+}
+@media (max-width: 991.98px){
+.m-header {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+}
+@media (max-width: 991.98px){
+.mobilehomebtn {
+    display: block !important;
+}
+ .navbar-toggler {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    box-shadow: none;
+}
+.social-mobile {
+    display: block !important;
+}
+}
+.mission-vision {
+    background-color: #242870;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.text-light {
+    color: #f8f9fa !important;
+    padding: 0.25rem !important;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+.burger {
+    position: relative;
+    display: block;
+    z-index: 12;
+    width: 1.75rem;
+    height: 1rem;
+    border: none;
+    outline: none;
+    background: none;
+    font-weight: bold;
+    color: #fff !important;
+    visibility: visible;
+    transform: rotate(0deg);
+    transition: 0.35s ease;
+}
+.navbarbtn-focus{
+  outline: 0 !important;
+    box-shadow: none !important;
+}
+/*  */
+.dropdown-menu{
+  background-color: #F4F4F4 ! important;
+}
+.dropdown-item{
+  font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #016da0;
+    text-transform: capitalize;
+}
+/* <div class="stats_main text-center">
+                        <div class="w3l-stats">
+                            <div class="">
+                                <img src="https://www.kcmc.ac.tz/images/patients.png" class="img-fluid">
+                            </div>
+                            <div class="info-feature mt-3">
+                                <h5 class="w3l-stats-txt">1,754</h5>
+                                <p class="stats-text">Patients</p>
+                            </div>
+                        </div>
+                        <div class="w3l-stats">
+                            <div class="">
+                                <img src="https://www.kcmc.ac.tz/images/services.png" class="img-fluid">
+                            </div>
+                            <div class="info-feature mt-3">
+                                <h5 class="w3l-stats-txt">30+&nbsp;</h5>
+                                <p class="stats-text">Services</p>
+                            </div>
+                        </div>
+                        <div class="w3l-stats">
+                            <div class="">
+                                <img src="https://www.kcmc.ac.tz/images/award.png" class="img-fluid">
+                            </div>
+                            <div class="info-feature mt-3">
+                                <h5 class="w3l-stats-txt">50+</h5>
+                                <p class="stats-text">Awards</p>
+                            </div>
+                        </div>
+                    </div> */
+.level1.active {
+    background: #f0f0f0;
+}
+.mg-breadcrumb-section {
+    height: 100%;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+.burger-line {
+    position: absolute;
+    display: block;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    border: none;
+    outline: none;
+    opacity: 1;
+    transform: rotate(0deg);
+    background: #292D7E;
+    transition: 0.25s ease-in-out;
+    font-size: 1.25rem;
+    line-height: 1;
+}
+.burger-line:nth-child(1) {
+    top: 0px;
+}
+.burger-line:nth-child(2) {
+    top: 0.5rem;
+}
+.burger-line:nth-child(3) {
+    top: 1rem;
+}
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.mobilehomebtn {
+    background: #292D7E;
+    color: #fff;
+    display: none;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+}
+.meet_doctor_section {
+    background: url(https://medihealgroup.com/wp-content/themes/mediheal/images/meet_doctors_bg.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+    display: block;
+}
+
+.level1 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    text-transform: uppercase;
+    display: inline-block;
+    float: none;
+    position: static;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    filter: none;
+}
+.wtitle2::before {
+   
+    border-color: transparent transparent transparent  rgb(23, 68, 158) !important;;
+}
+.centres_excellence_section {
+    background-color: #0352b9;
+    color: #ffffff;
+    padding: 20px 0px 30px 0;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.excellence_title_box .section_title{
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  
+}
+.excellence_title_box p {
+    margin-bottom: 7%;
+    margin-top: 2%;
+    color: #ffffff;
+    padding: 0px 32px;
+}
+.experience_section {
+    background-color: #1455A6;
+    color: #ffffff;
+    padding: 15px 15px;
+}
+.experience_box label {
+    font-size: 2em;
+    font-weight: 400;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.experience_box p {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: .8rem;
+    margin: 0 0 5px;
+}
+
+.experience_btn {
+    padding: 8px;
+    border: 1px solid #ffffff;
+    margin-top: 10px;
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.experience_box {
+    width: 20%;
+    float: left;
+    display: block;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    border-right: 1px solid #ffffff;
+    font-family: 'Oswald', sans-serif;
+}
+.excellence_title_box {
+  font-family: 'Alegreya Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+
+.level1 > a, div#maximenuck113 ul.maximenuck li.maximenuck.level1 > span.separator{
+  display: block;
+    float: none;
+    float: left;
+    position: relative;
+    text-decoration: none;
+    outline: none;
+    /* border: none; */
+    white-space: nowrap;
+    filter: none;
+    color: #fff;
+    padding: 15px 15px;
+}
+.fa-home {
+    font-weight: 900;
+}
+
+.fa-home {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+      .footer-title-kcmc{
+        color: #ffffff;
+        border-bottom-color: #e3e6ea;
+        font-weight: 700;
+        font-size: 17px;
+        border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding-bottom: 15px;
+    margin-bottom: 26px;
+    font-family: "LeBeauneNew";
+      }
+      
+      .footer-title-kcmc ul,li{
+        margin-bottom: 8px;
+        font-family: "Jost", sans-serif;
+        list-style: none;
+      }
+      .footer-title-kcmc + ul li  a{
+        color: #dddddd;
+      }
+.footer-copy-right{
+  color: #dddddd;
+}
+      .footer-title-kcmc + ul li a i{
+        color: #dddddd;
+      }
+      .footer-title-kcmc + ul li a:hover {
+  color: #ffffff ; 
+}
+.footer-title-kcmc + ul li p{
+        color: #dddddd;
+      }
+      .footer-title-kcmc + ul li span + a{
+        color: #dddddd;
+      }
+      /* kcmcco*/
+      .mg-wid-title{
+        border-color: #1151d3;
+        font-family: Times New Roman;
+        font-weight: bold;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    margin: -10px -20px 20px -20px;
+    position: relative;
+    padding: 0;
+      }
+
+      .wtitle{
+        background: #1151d3;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 8px 0 15px;
+    position: relative;
+    text-transform: uppercase;
+    width: auto;
+    height: 40px;
+    display: inline-block;
+      }
+
+.small-post{
+  margin-bottom: 6px;
+    min-height: 103px;
+    background: #fff;
+    list-style: none;
+    padding: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    display: flex;
+    font-family: Times New Roman;
+    color: #222;
+}
+
+.small-post .img-small-post {
+    width: 88px;
+    height: 88px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.small-post .small-post-content {
+    flex: 1;
+}
+
+.mg-blog-category a {
+    display: inline-block;
+    font-size: 10px;
+    padding: 4px 6px;
+    line-height: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.gutentor-block-shape-top {
+    top: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+.gutentor-title{
+  font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.05em;
+    line-height: 1.3;
+    font-size: 32px;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+.gutentor-block-shape-top span{
+    display: block;
+    line-height: 0;
+    font-size: 0;
+}
+.gutentor-block-shape-top svg path{
+    fill: rgba(18,34,163,1);
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+@media (max-width: 781px)
+.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+    flex-basis: 100%!important;
+}
+
+.wp-block-column {
+    flex-grow: 1;
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+.grid-container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  
+}
+.gutentor-block-header{
+  font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+ .gutentor-grid-item-wrap {
+    padding: 40px 0 0 0;
+    position: relative;
+    z-index: 3;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: 80px;
+}
+/* testing */
+.row-in-annoicement{
+    margin-right: 0.3px !important;
+    margin-left: 0.3px !important;
+}
+
+.p-test-welcome {
+    font-size: 1rem !important;
+}
+
+.mg-wid-title-test{
+  margin: 0 !important;
+}
+.Visiting-test{
+  padding-right: 0px !important;
+    padding-left: 0px !important;
+
+}
+
+.news-test{
+  padding-right: 0px !important;
+    padding-left: 0px !important;
+
+}
+/* testing */
+
+@media  screen and (min-width: 240px) and (max-width: 991px) { 
+
+  .col-spacer{
+    margin-bottom:1rem !important;
+  }
+  .gallery-test{
+    width: 500px;
+  }
+
+}
+
+@media  screen and (min-width: 767px) and (max-width: 991px) { 
+
+.mg-blog-post.lg {
+		height: 390px !important;
+	}
+
+
+}
+@media  screen and (min-width: 240px) and (max-width: 767px) { 
+
+.mg-blog-post.lg {
+		height: 300px !important;
+	}
+
+
+}
+.gutentor-list-item-wrap {
+    display: -ms-flexbox;
+    display: flex;
+}
+.gutentor-list-item{
+  font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: 30px;
+}
+.gutentor-single-item-image-box {
+    margin-right: 10px;
+}
+.gutentor-single-item-image-box .gutentor-image-thumb {
+    width: 20px;
+    height: 20px;
+}
+.normal-image {
+    height: auto;
+    max-width: 100%;
+}
+
+.gutentor-single-item-title{
+    color: #212529;
+    margin: 0;
+    line-height: normal;
+}
+.g-single-column-link-enabled .gutentor-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: #1151d3;
+}
+
+.gutentor-block-shape-bottom{
+    bottom: -1px;
+    -webkit-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.real_people_stories_section {
+    background-color: #f3f3f3;
+    font-weight: 400;
+    color: #646464;
+    padding-top: 20px;
+    font-weight: 400;
+}
+ #people_stories_slider .real_story_box label {
+    min-height: 50px;
+}
+
+.real_story_box label {
+    color: #1455A6;
+    text-transform: uppercase;
+    padding-top: 6%;
+    padding-right: 10px;
+    padding-left: 10px;
+    /* height: 70px; */
+    overflow: hidden;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 14px;
+}
+
+.real_story_box label {
+    cursor: pointer;
+}
+.all_btn_section a {
+    margin-bottom: 0px;
+    margin-top: 2%;
+}
+.all_view_btn {
+    background-color: #1455A6;
+    padding: 12px 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+ #people_stories_slider .real_story_box a {
+    display: block;
+}
+ #people_stories_slider .real_story_box .btn {
+    display: block;
+}
+.real_story_box .btn {
+    padding: 0px;
+}
+ #people_stories_slider .real_story_box img {
+    width: 100% !important;
+}
+
+.real_story_box figure {
+    border: 2px solid rgb(243, 243, 243);
+    
+}
+.real_story_name {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    color: #333;
+}
+.real_story_box {
+    background: #fff;
+  
+    /* min-height: 275.98px; */
+    min-height: 260px;
+}
+.gutentor-section .gutentor-block-shape-bottom span{
+    display: block;
+    line-height: 0;
+    font-size: 0;
+}
+
+a:hover{
+    font-weight: 500;
+}
+label:hover{
+    font-weight: 500 !important;
+}
+.gutentor-block-shape-bottom svg path{
+    fill: rgb(23, 68, 158);
+}
+
+#section-563de28b-3f26-495e-b519-9bef4d7b425f {
+    padding: 40px 0 40px 0;
+}
+.title_small_post {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.small-list-post h5, .small-post .title {
+    margin: 0px;
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    padding-right: 8px;
+    color: #222;  
+}
+
+.title_small_post h5 a {
+    color: #212121;
+}
+
+.wtitle::before {
+    width: 0;
+    position: absolute;
+    right: -29px;
+    top: 0px;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 0 0px 30px;
+    content: "";
+     border-color: transparent transparent transparent rgb(23, 68, 158);
+
+      }
+
+    
+/* muhimbili */
+#navbarSupportedContent {
+    font-size: 14px;
+    line-height: 21px;
+    /* text-align: left; */
+    zoom: 1;
+}
+
+
+.mainmaxmenu {
+    padding-top: 0px ! important;
+    background-color: #F4F4F4 ! important;
+    border-bottom: 1px solid #292D7E;
+}
+.marquee-text{
+  color: #292D7E !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-link{
+  font-family: 'Poppins';
+  padding: 15px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #292D7E !important;
+    font-weight: 500;
+}
+
+.nav-link:hover, .nav-link:focus {
+    text-decoration: none;
+      font-weight: 600 !important;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.nav-item{
+  font-size: 14px !important;
+  padding-right: 20px;
+    text-transform: uppercase;
+    line-height: 5px !important;
+}
+.dropdown-item{
+  font-family: 'Poppins';
+  color: #292D7E !important;
+  padding: 15px 15px;
+  font-weight: 500;
+}
+.dropdown-item:hover{
+
+  color: #292D7E !important;
+  font-weight: 600;
+
+}
+.top-banner-title h3 {
+    padding-top: 15px;
+    color: #2596be;
+    text-shadow: -1px -1px 1px #111, 2px 2px 1px #F4F4F4;
+}
+.nav-ul{
+  background: #F4F4F4;
+    background-color: #F4F4F4;
+}
+.top-banner-title{
+    padding-left:  1px !important;
+}
+
+
+
+.top-banner-title h2 {
+    text-decoration: none;
+    padding-top: 10px;
+    
+    padding-bottom: 6px;
+    color: #292D7E;
+    letter-spacing: 1px;
+    text-shadow: -1px -1px 1px #111, 2px 2px 1px #F4F4F4;
+}
+
+.sticky-top{
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.toprow {
+    background-image: url(/images/BANA-1.jpg) !important;
+    border-bottom: 1px solid #35C1D5;
+}
+
+
+  #latest-news {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+#latest-news::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+.overlay.border-top h2{
+    font-weight: 700;
+    font-size: 22px !important;
+} 
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(23, 68, 158, 0.7); /* Change the color and opacity as desired */
+}
+
+.overlay-post {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and opacity as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.item:hover .overlay-post {
+    opacity: 1;
+}
+
+.btn::after {
+        content: "Click to view";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .btn:hover::after {
+        opacity: 1;
+    }
+
+
+.overlay-post p {
+    color: white; /* Text color */
+    font-size: 24px; /* Text size */
+    text-align: center;
+}
+
+.overlay-news {
+  position: absolute;
+  bottom: 0;
+  border: 0 !important;
+  left: 0;
+  width: 100%; /* adjust the width of the overlay as desired */
+  height: 100%; /* adjust the height of the overlay as desired */
+  background: linear-gradient(to top right, rgba(0, 0, 0, 0.7) 30%, rgba(255, 255, 255, 0) 100%);
+}
+
+  
+@media (min-width: 767px) {
+    .medical-container{
+        padding-top: 4px;
+    }
+}
+@media (max-width: 991px) {
+.container_nav {
+
+margin-right: 0px !important;
+margin-left: 0px !important;
+}
+.mainmaxmenu{
+    padding-left: 0px !important;
+
+    padding-right: 0px !important;
+}
+}
+
+@media (max-width: 767px) {
+    .carousel-caption .overlay h2{
+        font-size: 4px !important;
+  }
+  .medical-care{
+    padding-top: 4px !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+    
+}
+.card{
+    overflow-y: hidden !important;
+    overflow-x: hidden;
+}
+
+  .carousel-caption  .overlay p{
+        font-size: 15px !important;
+  }
+  .carousel-caption  .overlay .full-text{
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 677px) {
+
+    .medical-care{
+    padding-top: 200px !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+    
+}
+
+
+@media (max-width: 625px){
+.experience_box {
+    width: 100% !important;
+    border-right: none;
+}
+}
+@media (max-width: 768px){
+.experience_box {
+    width: 50%;
+}
+}
+
+    .carousel-caption{
+        width: 100% !important;
+        left: 0 !important;
+        padding-bottom: 0 !important;
+        padding-top: 250px !important;
+  }
+  .carousel-indicators{
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+  
+
+    .carousel-caption .overlay h2{
+        font-size: 20px !important;
+  }
+
+  .carousel-caption  .overlay p{
+        font-size: 15px !important;
+  }
+  .carousel-caption  .overlay .full-text{
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 767px) {
+  .people_stories_title_box {
+    margin-left: 25% !important;
+  }
+}
+@media (max-width: 537px) {
+
+.carousel-caption{
+    width: 100% !important;
+    left: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 250px !important;
+}
+.medical-care{
+    padding-top: 4px !important;
+}
+
+.carousel-indicators{
+margin-bottom: 0 !important;
+margin-top: 0 !important;
+}
+.trucated .short{
+  font-size: 12px !important;
+  line-height: 18px !important;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  text-align: center;
+}
+
+
+.trucated h2{
+  font-size: 13px !important;
+}
+
+.carousel-caption .overlay h2{
+    font-size: 15px !important;
+}
+
+.carousel-caption  .overlay p{
+    font-size: 12px !important;
+}
+.carousel-caption  .overlay .full-text{
+font-size: 12px !important;
+}
+}
+
+@media (max-width: 424px) {
+.w3l-bootstrap-header .container a {
+    text-align: center;
+
+}
+
+.w3l-bootstrap-header .container  {
+    justify-content: center !important;
+
+}
+
+.w3l-bootstrap-header .hamburger1{
+  
+}
+.medical-care{
+    padding-top: 4px !important;
+}
+
+
+
+}
+@media (max-width: 432px) {
+
+.carousel-caption{
+    width: 100% !important;
+    left: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 250px !important;
+}
+.carousel-indicators{
+margin-bottom: 0 !important;
+margin-top: 0 !important;
+}
+
+
+.carousel-caption .overlay h2{
+    font-size: 13px !important;
+}
+
+.carousel-caption  .overlay p{
+    font-size: 13px !important;
+}
+.carousel-caption  .overlay .full-text{
+font-size: 13px !important;
+}
+
+}
+
+@media (max-width: 316px) {
+
+.carousel-caption{
+    width: 100% !important;
+    left: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 250px !important;
+}
+.carousel-indicators{
+margin-bottom: 0 !important;
+margin-top: 0 !important;
+}
+
+
+
+.carousel-caption .overlay h2{
+    font-size: 13px !important;
+}
+
+.carousel-caption  .overlay p{
+    font-size: 8px !important;
+}
+.carousel-caption  .overlay .full-text{
+font-size: 8px !important;
+}
+}
+   
+      </style>
+    <!-- Favicons -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://www.kcmc.ac.tz/images/favicon.png" rel="icon">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+   
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://www.kcmc.ac.tz/css/style-starter.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<style>INPUT:-webkit-autofill,SELECT:-webkit-autofill,TEXTAREA:-webkit-autofill{animation-name:onautofillstart}INPUT:not(:-webkit-autofill),SELECT:not(:-webkit-autofill),TEXTAREA:not(:-webkit-autofill){animation-name:onautofillcancel}@keyframes onautofillstart{}@keyframes onautofillcancel{}</style><link type="text/css" rel="stylesheet" href="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.css"></head>
+
+<body class="mx-sm-5">
+    <section class="mg-latest-news-sec-kcmc-college">
+<div class="container-responsive">
+  <div class="row prevent_exced_row">
+    <img src="https://www.kcmc.ac.tz/images/BANA-1.jpg" style="max-width: 100%;" alt="" class="prevent_exced_row">
+  </div>
+</div>
+</section>
+<div class="mg-menu-full my-3">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-wp mainmaxmenu">
+        <div class="container container_nav">
+            <!-- Right nav -->
+            <div class="m-header align-items-center pr-3">
+                <a class="mobilehomebtn " href="https://www.kcmc.ac.tz"><span class="fas fa-home "></span></a>
+                <!-- navbar-toggle -->
+                <button class=" navbarbtn-focus navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wp" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="burger">
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                    </span>
+                </button>
+                <!-- /navbar- -->
+            </div>
+            <!-- /Right nav -->
+
+
+            <div class="collapse navbar-collapse" id="navbar-wp">
+                <div class="col-lg-12">
+                    <div class="d-md-block maximenuckh ltr" id="maximenuck113">
+                        <ul class="navbar-nav  nav-mb ml-auto nav-ul maximenuck pt-2" data-mobilemenuck-id="maximenuck113">
+                            <li class="nav-item  nav-mb maximenuck item101 current  first level1 flex-fill actives">
+                                <a class="nav-link nav-a" href="https://www.kcmc.ac.tz">Home</a>
+                            </li>
+
+
+                         
+                            <!-- <li class="nav-item  nav-mb level1 flex-fill ">
+                                <a class="nav-link" href="">Departments</a>
+                            </li> -->
+                        
+
+                            <li class="nav-item dropdown nav-mb  level1 flex-fill ">
+                    <a class="nav-link dropdown-toggle" href="#" id="administrationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    clinical services
+                    </a>
+                    <div class="dropdown-menu border-0" aria-labelledby="administrationDropdown">
+                 
+
+                                    <a class="dropdown-item" href="#">Urology</a>
+
+
+                                    <a class="dropdown-item" href="#">Orthopedics</a>
+
+
+                                    <a class="dropdown-item" href="#">Eye</a>
+
+
+                                    <a class="dropdown-item" href="#">Dermatology</a>
+
+                                    <a class="dropdown-item" href="#">Physio And Occupational Therapy</a>
+
+                                    <a class="dropdown-item" href="#">Pediatrics And Child Health</a>
+                       
+                    
+                    </div>
+                </li>
+
+                <li class="nav-item  nav-mb level1 flex-fill">
+                                <a class="nav-link" href="#">Super Specialised Services</a>
+                  </li>
+                <!--   <a class="dropdown-item"
+                                    href="https://www.kcmc.ac.tz/clinical-services">Clinics</a> -->
+                            <!-- <li class="nav-item  nav-mb level1 flex-fill ">
+                                <a class="nav-link" href="">Customer Care</a>
+                            </li> -->
+                            <!-- <li class="nav-item  nav-mb level1 flex-fill ">
+                                <a class="nav-link" href="">Visiting Hours</a>
+                            </li>
+                            <li class="nav-item  nav-mb level1 flex-fill ">
+                                <a class="nav-link" href="">Events & News</a>
+                            </li>
+                            <li class="nav-item  nav-mb level1 flex-fill ">
+                                <a class="nav-link" href="">Projects</a>
+                            </li> -->
+                            <li class="nav-item  nav-mb level1 flex-fill ">
+                                <a class="nav-link" href="https://www.kcmc.ac.tz/contact">Contacts</a>
+
+                            </li><li class="nav-item dropdown nav-mb  level1 flex-fill ">
+                    <a class="nav-link dropdown-toggle" href="#" id="administrationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Management
+                    </a>
+                    <div class="dropdown-menu border-0" aria-labelledby="administrationDropdown">
+                        <a class="dropdown-item" href="https://www.kcmc.ac.tz/executive-management">Executive Management</a>
+                        <!-- <a class="dropdown-item" href="https://www.kcmc.ac.tz/organization-structure">Organization Structure</a> -->
+                        <a class="dropdown-item" href="https://www.kcmc.ac.tz/directorates/Executive-director">Executive Director.</a>
+                        <a class="dropdown-item" href="https://www.kcmc.ac.tz/directorates/Human-resource-directorate">Directorate of Human Resources Management and Administration</a>
+                        <a class="dropdown-item" href="https://www.kcmc.ac.tz/directorates/Director-finance">Directorate of Finance</a>
+                        <a class="dropdown-item" href="https://www.kcmc.ac.tz/directorates/Director-medical-services">Directorate of Medical Services</a>
+                        <a class="dropdown-item" href="https://www.kcmc.ac.tz/directorates/Director-surgery-services">Directorate of Surgical Services</a>
+                        <a class="dropdown-item" href="https://www.kcmc.ac.tz/directorates/Director-nursing-services">Directorate of Nursing  Services</a>
+                    </div>
+                </li>
+          
+
+                            <li class="nav-item  nav-mb level1 flex-fill  ">
+                                <a class="nav-link" href="#">Career</a>
+                            </li>
+
+                            <li class="nav-item level1 nav-mb flex-fill  ">
+                                <a class="nav-link" href="https://www.kcmc.ac.tz/gallery">Gallery</a>
+                            </li>
+                            
+                            <li class="nav-item  nav-mb level1 flex-fill ">
+                                <a class="nav-link" href="https://www.kcmc.ac.tz/about">About Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right nav -->
+                <div class="desk-header d-lg-flex pl-3 ml-auto my-2 my-lg-0 position-relative align-items-center">
+                    <!-- /navbar-toggle -->
+
+                </div>
+            </div>
+   
+    </div></nav> <!-- /Navigation -->
+</div>
+
+
+    <section class="my-3">
+    <div class="row">
+        <div class="col-lg-9 mb-3">
+            <div id="bmcSlide" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#bmcSlide" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#bmcSlide" data-bs-slide-to="1" aria-label="Slide 3" class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#bmcSlide" data-bs-slide-to="2" aria-label="Slide 4" class=""></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="https://www.kcmc.ac.tz/images/slides/msalaba.JPG" class="d-block w-100 h-50" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="overlay_caption border-0"></div>
+                            <h4 class="title color_caption" style="mix-blend-mode: difference; color: white;">KCMC
+                                Hospital's memorial tower</h4>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item active">
+                        <img src="https://www.kcmc.ac.tz/images/slides/emd.JPG" class="d-block w-100 h-50" alt="...">
+                        <div class="carousel-caption  d-none d-md-block">
+                            <div class="overlay_caption"></div>
+                            <h4 class="title color_caption" style="mix-blend-mode: difference; color: white;">Emergency
+                                Department</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.kcmc.ac.tz/images/slides/frontview.JPG" class="d-block w-100 h-10" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="overlay_caption"></div>
+                            <h4 class="title color_caption" style="mix-blend-mode: difference; color: white;">Front View
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-3 mb-3 director-sec">
+            <div class="card">
+                <img src="https://www.kcmc.ac.tz/images/administration/masenga (2).JPG" class="card-img-top director-img" alt="...">
+                <div class="card-body">
+                    <h5 class="font-weight-bold text-center">Prof. Gileard Masenga</h5>
+                    <h6 class="card-title font-weight-bold text-center">Executive Director</h6>
+                    <p class="card-text font-familiy text-justify">I am delighted to extend a warm welcome to each and every visitor to our website. It is an honor to have you here as a part of our online community
+                    <span id="moreText" style="display: none;" class="text-justify">
+                    Kilimanjaro Christian Medical Centre is among the Seven Zonal Consultant hospitals in Tanzania and It was formally established in 1971 as a Zonal Referral Consultant hospital owned by the Evangelical Lutheran Church of Tanzania (ELCT), KCMC as a referral hospital is serving approximately eleven million people 11,000,000 in Northern Tanzania as per 2022 census. KCMC is located in Kilimanjaro Region in Tanzania offering variety of super specialized services.
+  </span>
+                    </p>
+
+                    
+                    
+                </div>
+                <button id="showMoreButton" class="mx-auto btn btn-primary" onclick="toggleText()">Read More</button>.
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- vision and mission -->
+
+<div class="w3l-call-to-action_9 py-3">
+    <h3 class="title mb-sm-2 mb-2 text-center">EXPLORING KCMC</h3>
+    <div class="row">
+
+
+        <div class="col-xl-3 col-md-4 mb-4">
+            <div class=" bg-white rounded shadow">
+                <img src="https://www.kcmc.ac.tz/images/department/padiatric.JPG" class="img card-img-top rounded" alt="">
+                <div class="lc-block p-4">
+                    <div editable="rich">
+                        <h4>Pediatric</h4>
+                        <p>Pediatric Department&nbsp;</p>
+                    </div>
+                    <div class="text-center mt-3">
+                        <!-- Center-align the button -->
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#Pediatric">Read More</button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="Pediatric">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Pediatric Department</h4>
+                                    <button type="button" class="close" data-dismiss="modal">×</button>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <p class="font-familiy">The pediatric department offers highly
+                                        specialized care tailored to children's unique medical needs. Services encompass
+                                        neonatal care for premature infants, pediatric surgery, pediatric cardiology,
+                                        and developmental assessments. The team includes skilled pediatricians, nurses,
+                                        and specialists dedicated to promoting the health and well-being of young
+                                        patients.
+                                    </p>
+                                </div>
+                                <!-- Modal footer -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+        <div class="col-xl-3 col-md-4 mb-4">
+            <div class=" bg-white rounded shadow">
+                <img src="https://www.kcmc.ac.tz/images/department/medical.JPG" class="img card-img-top rounded" alt="">
+                <div class="lc-block p-4">
+                    <div editable="rich">
+                        <h4>Medical</h4>
+                        <p>Medical Department&nbsp;</p>
+                    </div>
+                    <div class="text-center mt-3">
+                        <!-- Center-align the button -->
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#Medical">Read More</button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="Medical">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Medical Department</h4>
+                                    <button type="button" class="close" data-dismiss="modal">×</button>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <p class="font-familiy">The medical department is committed to delivering comprehensive healthcare services to address a broad spectrum of medical needs. Our dedicated team of healthcare professionals offers a wide range of diagnostic and treatment options, including specialized services such as cardiac care, respiratory treatments, and gastrointestinal procedures. In addition, we provide thorough medical evaluations, health screenings, and personalized treatment plans, ensuring that your overall well-being and health are our top priorities.</p>
+                                </div>
+                                <!-- Modal footer -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="col-xl-3 col-md-4 mb-4">
+            <div class=" bg-white rounded shadow">
+                <img src="https://www.kcmc.ac.tz/images/department/surgical.JPG" class="img card-img-top rounded" alt="">
+                <div class="lc-block p-4">
+                    <div editable="rich">
+                        <h4>Surgical</h4>
+                        <p>General surgery department&nbsp;</p>
+                    </div>
+                    <div class="text-center mt-3">
+                        <!-- Center-align the button -->
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#Surgical">Read More</button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="Surgical">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">General surgery department</h4>
+                                    <button type="button" class="close" data-dismiss="modal">×</button>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <p class="font-familiy">The General surgery department at KCMC offer a range of super-specialized services that play a crucial role in diagnosing and treating a variety of medical conditions. These services encompass a broad spectrum of surgical subspecialties, ensuring comprehensive care for patients.
+
+One key area of specialization within general surgery is minimally invasive surgery, which includes laparoscopic and robotic procedures. These techniques use small incisions and advanced technology to perform surgeries with less trauma, shorter recovery times, and reduced scarring. Gastrointestinal surgeons focus on issues related to the digestive system, such as hernias, gallbladder problems, and bowel disorders, while vascular surgeons handle conditions affecting blood vessels, such as aneurysms or peripheral artery disease.
+
+Another super-specialized field within general surgery is surgical oncology, which involves the removal of tumors and cancerous tissues. Trauma surgery addresses emergency cases, particularly those involving severe injuries from accidents or violence. Furthermore, transplant surgery deals with organ transplantation, and pediatric surgeons specialize in surgeries for children.
+
+The general surgery department collaborates with numerous other specialties, including radiology, anesthesiology, and critical care, to provide comprehensive patient care. These super-specialized services ensure that patients receive the most effective, evidence-based treatments, tailored to their unique medical conditions, ultimately improving outcomes and enhancing the quality of healthcare.
+</p>
+                                </div>
+                                <!-- Modal footer -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-xl-3 col-md-4 mb-4">
+            <div class=" bg-white rounded shadow">
+                <img src="https://www.kcmc.ac.tz/images/MACHO1.jpg" class="img card-img-top rounded" alt="">
+                <div class="lc-block p-4">
+                    <div editable="rich">
+                        <h4>Eye</h4>
+                        <p>Eye Department&nbsp;</p>
+                    </div>
+                    <div class="text-center mt-3">
+                        <!-- Center-align the button -->
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#Eye">Read More</button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="Eye">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Eye Department</h4>
+                                    <button type="button" class="close" data-dismiss="modal">×</button>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <p class="font-familiy">The ophthalmology department offers highly specialized services focused on diagnosing and treating eye conditions. This includes advanced procedures like laser eye surgery, cataract extraction, glaucoma management, and retinal surgeries. Additionally, they provide precise vision assessments, contact lens fittings, and tailored treatment plans to ensure optimal eye health and visual acuity.</p>
+                                </div>
+                                <!-- Modal footer -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-xl-3 col-md-4 mb-4">
+            <div class=" bg-white rounded shadow">
+                <img src="https://www.kcmc.ac.tz/images/dermatology1.jpg" class="img card-img-top rounded" alt="">
+                <div class="lc-block p-4">
+                    <div editable="rich">
+                        <h4>Demartology</h4>
+                        <p>Demartology Department&nbsp;</p>
+                    </div>
+                    <div class="text-center mt-3">
+                        <!-- Center-align the button -->
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#Demartology">Read
+                            More</button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="Demartology">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Demartology Department</h4>
+                                    <button type="button" class="close" data-dismiss="modal">×</button>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <p class="font-familiy">The Dermatology department provides a wide range of specialized services dedicated to the diagnosis and treatment of skin-related conditions. This encompasses advanced procedures such as dermatologic surgery, laser skin treatments, and mole removal. Furthermore, our team offers comprehensive skin assessments, skin cancer screenings, and customized treatment regimens to promote healthy skin and enhance your overall dermatological well-being.</p>
+                                </div>
+                                <!-- Modal footer -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-xl-3 col-md-4 mb-4">
+            <div class=" bg-white rounded shadow">
+                <img src="https://www.kcmc.ac.tz/img/ORTHOPAEDIC (1).jpg" class="img card-img-top rounded" alt="">
+                <div class="lc-block p-4">
+                    <div editable="rich">
+                        <h4>Orthopaedics</h4>
+                        <p>Orthopaedics Department&nbsp;</p>
+                    </div>
+                    <div class="text-center mt-3">
+                        <!-- Center-align the button -->
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#Orthopedic">Read More</button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="Orthopedic">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">orthopaedics department</h4>
+                                    <button type="button" class="close" data-dismiss="modal">×</button>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <p class="font-familiy">The orthopaedics department provides highly specialised services with an emphasis on musculoskeletal disorders diagnosis and treatment. These include delicate spine procedures, complex joint replacements, sports injury management, and cutting-edge fracture care. Their proficiency in the treatment of bones, joints, and muscles guarantees that patients receive individualised care for a faster recovery and higher quality of life.
+</p>
+                                </div>
+                                <!-- Modal footer -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-xl-3 col-md-4 mb-4">
+            <div class=" bg-white rounded shadow">
+                <img src="https://www.kcmc.ac.tz/img/uzazi.jpg" class="img card-img-top rounded" alt="">
+                <div class="lc-block p-4">
+                    <div editable="rich">
+                        <h4>gynaecology</h4>
+                        <p>gynaecology Department&nbsp;</p>
+                    </div>
+                    <div class="text-center mt-3">
+                        <!-- Center-align the button -->
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#Gynecology">Read More</button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="Gynecology">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Obstetrics and gynaecology Department</h4>
+                                    <button type="button" class="close" data-dismiss="modal">×</button>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <p class="font-familiy">The Obstetrics and gynaecology department offers highly specialised care for women's reproductive health. They provide comprehensive services including prenatal care, childbirth assistance, fertility treatments, gynaecological surgeries, and management of complex conditions like endometriosis and high-risk pregnancies. Their expertise ensures women receive tailored, top-notch care throughout their reproductive journey.</p>
+                                </div>
+                                <!-- Modal footer -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-xl-3 col-md-4 mb-4">
+            <div class=" bg-white rounded shadow">
+                <img src="https://www.kcmc.ac.tz/img/dental1.jpg" class="img card-img-top rounded" alt="">
+                <div class="lc-block p-4">
+                    <div editable="rich">
+                        <h4>Dental</h4>
+                        <p>Dental Department&nbsp;</p>
+                    </div>
+                    <div class="text-center mt-3">
+                        <!-- Center-align the button -->
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#Dental">Read More</button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="Dental">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Dental Department</h4>
+                                    <button type="button" class="close" data-dismiss="modal">×</button>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <p class="font-familiy">The Dental department offers super specialized services focused on oral health and aesthetics. These services include complex oral surgeries, orthodontics, cosmetic procedures, dental implants, periodontal therapy, and pediatric dentistry. With cutting-edge technology and skilled professionals, the department ensures comprehensive dental care tailored to individual needs..</p>
+                                </div>
+                                <!-- Modal footer -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+      <!-- STATISTICS SECTION -->
+    <!-- <section class="real_people_stories_section mb-0">
+        <div class="container-fluid">
+            <div class="main-cont-wthree-2">
+                <div class="left-contect-calls text-center">
+                    <div class="row prevent_exced_row">
+                        <div class="col-md-3 col-sm-6 pb-3 ">
+                            <a href="#" class="">
+                                <img src="https://www.kcmc.ac.tz/images/van.png" class="img-fluid" alt="">
+                            </a>
+                            <div class="info-feature mt-3">
+                                <h5 class="w3l-stats-txt">1,754</h5>
+                                <p class="stats-text">Cases</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 pb-3 ">
+                            <a href="#" class="">
+                                <img src="https://www.kcmc.ac.tz/images/patients.png" class="img-fluid"
+                                    alt="">
+                            </a>
+                            <div class="info-feature mt-3">
+                                <h5 class="w3l-stats-txt">1,754</h5>
+                                <p class="stats-text">Patients</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 pb-3 ">
+                            <a href="#" class="">
+                                <img src="https://www.kcmc.ac.tz/images/award.png" class="img-fluid" alt="">
+                            </a>
+                            <div class="info-feature mt-3">
+                                <h5 class="w3l-stats-txt">1,754</h5>
+                                <p class="stats-text">Awards</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 pb-3 ">
+                            <a href="#" class="">
+                                <img src="https://www.kcmc.ac.tz/images/doctors.png" class="img-fluid"
+                                    alt="">
+                            </a>
+                            <div class="info-feature mt-3">
+                                <h5 class="w3l-stats-txt">1,754</h5>
+                                <p class="stats-text">Doctors</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+</div> -->
+
+<!-- vison and mission -->
+<section class="w3l-main-slider  py-3 " id="home">
+       <div class="container-fluid">
+        <div class="row row-in-annoicement">
+            <div class="col-lg-7 col-spacer">
+                
+                <div class="row">
+
+                    <div class="col-md-6 col-spacer">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(243, 243, 243);"></div> 
+                        <div class="wp-block-column is-layout-flow">
+                            <section id="section-563de28b-3f26-495e-b519-9bef4d7b425f" class="wp-block-gutentor-list gutentor-section gutentor-list-wrapper list-template1 has-gutentor-block-shape-top has-gutentor-block-shape-bottom">
+                                <div class="gutentor-block-shape-top pr-3 ">
+                                    <div class="mg-wid-title mg-wid-title-test">
+                                        <h6 class="wtitle" style="background-color: rgb(23, 68, 158) !important;">
+                                            Announcements!</h6>
+
+                                    </div>
+                                </div>
+                                <div class="grid-container">
+                                    <div class="gutentor-block-header">
+                                        <div class="gutentor-section-title text-center"></div>
+                                    </div>
+                                    <ul class="grid-row gutentor-grid-item-wrap list-indicator-image text-left" style="padding: 10px 0 0 0; position: relative;">  
+    <li class="gutentor-list-item grid-lg-12 grid-12 grid-12">
+        <span class="gutentor-single-item gutentor-single-item-0 g-single-column-link-enabled">
+            <span class="gutentor-list-item-wrap" style="position: relative; display: inline-block;">
+                <span class="gutentor-single-item-image-box" style="width: 100%;">
+                    <div class="img-small-post" style="overflow: hidden; border-radius: 15px; position: relative;">
+                        <a href="https://docs.google.com/forms/d/1Etz2uHo0UwCIu6byvA3ny_iL0fAM0dz88oQpXEZykyY/viewform?pli=1&amp;pli=1&amp;edit_requested=true">
+                            <img src="https://www.kcmc.ac.tz/images/seminar.jpg" alt="News Title" class="img-fluid" style="width: 150%; height: auto;">
+                        </a>
+                    </div>
+                </span>
+            </span>
+            <a class="gutentor-single-item-box-link gutentor-link" href="https://docs.google.com/forms/d/1Etz2uHo0UwCIu6byvA3ny_iL0fAM0dz88oQpXEZykyY/viewform?pli=1&amp;pli=1&amp;edit_requested=true" target="_blank" rel="noopener noreferrer"></a>
+        </span>
+        <!-- Button positioned absolute at the bottom center -->
+       <p class="text-center"> 
+    <a href="https://docs.google.com/forms/d/1Etz2uHo0UwCIu6byvA3ny_iL0fAM0dz88oQpXEZykyY/viewform?pli=1&amp;pli=1&amp;edit_requested=true" class="btn btn-primary ">
+       Apply Now
+    </a>
+</p>
+
+        <!--<div style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); text-align: center; width: 100%;">-->
+           
+        <!--<a href="https://www.kcmc.ac.tz/images/jambo.pdf" class="no-hover-effect" style="color: #fff; background-color: #17449e; border-color: #17449e; text-decoration: none; padding: 10px 20px; border-radius: 5px; transition: none !important; cursor: pointer;">Read More!</a>-->
+
+        <!--</div>-->
+    </li>
+</ul>
+
+
+
+                                </div>
+                                <div class="gutentor-block-shape-bottom"><span><svg viewBox="0 0 1280 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M0 140h1280C573.08 140 0 0 0 0z" style="transform: rotate(180deg); transform-origin:50% 50%;"></path>
+                                            </g>
+                                        </svg></span></div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-spacer pr-3 Visiting-test">
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="background-color: rgb(23, 68, 158) !important;">
+                                        Welcome Note
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+                                    <div class="accordion-body">
+                                    <p class="card-text font-familiy text-justify">I am delighted to extend a warm welcome to each and every visitor to our website. It is an honor to have you here as a part of our online community
+                   
+                    </p>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading1">
+                                    <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1" style="background-color: rgb(23, 68, 158) !important;">
+                                        Our Vision
+                                    </button>
+                                </h2>
+                                <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionExample" style="">
+                                    <div class="accordion-body ">
+                                        <p class="font-familiy">A super specialized hospital touching and changing
+                                            lives. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading2">
+                                    <button class="accordion-button  bg-success text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2" style="background-color: rgb(23, 68, 158) !important;">
+                                        Our Mission
+                                    </button>
+                                </h2>
+                                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body ">
+                                        <p class="font-familiy">To provide accessible, reliable and people-centered
+                                            high-quality health care services, training and research outputs.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading3">
+                                    <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3" style="background-color: rgb(23, 68, 158) !important;">
+                                        Our Core Values
+                                    </button>
+                                </h2>
+                                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample" style="">
+                                    <div class="accordion-body ">
+                                        <strong>
+                                            <ol>
+
+                                            </ol>
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <aside class="col-lg-5  pr-3  news-test">
+                <aside id="secondary" class="widget-area " role="complementary">
+                    <div id="sidebar-right" class="mg-sidebar ">
+                        <div id="nav_menu-5" class="mg-widget row-in-annoicement  widget_nav_menu">
+                            <div class="mg-wid-title mg-wid-title-test">
+                                <h6 class="wtitle" style="background-color: rgb(23, 68, 158) !important;">Latest
+                                    News
+                                </h6>
+                            </div>
+                            <div id="exTab2">
+                                <div class="tab-content">
+                                    <div id="tan-main-banner-latest-trending-popular-recent" role="tabpanel" class="tab-pane active">
+                                        <div class="mg-posts-sec mg-posts-modul-2">
+                                            <div class="mg-posts-sec-inner row">
+                                                <div class="small-list-post col-lg-12">
+                                                                                                                                                                        <div class="small-post clearfix">
+                                                                <div class="img-small-post">
+                                                                    <a href="https://www.kcmc.ac.tz/news/2">
+                                                                        <img src="images/news/Habari.jpg" alt="MAFUNZO KUTOKA REAL MADRID FOUNDATION" class="img-fluid">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="small-post-content">
+                                                                    <div class="mg-blog-category">
+                                                                        <a class="newsup-categories category-color-1" href="https://www.kcmc.ac.tz/news/2" alt="View all posts in News">
+                                                                            News
+                                                                        </a> </div>
+                                                                    <div class="title_small_post">
+
+
+                                                                        <a style="color:#212529" href="https://www.kcmc.ac.tz/news/2">
+                                                                            MAFUNZO KUTOKA REAL MADRID FOUNDATION </a>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                    <div class="small-post clearfix">
+                                                                <div class="img-small-post">
+                                                                    <a href="https://www.kcmc.ac.tz/news/1">
+                                                                        <img src="images/news/KLINIKI YA MOYO.jpg" alt="UZINDUZI WA KLINIKI YA MOYO YA WANAWAKE" class="img-fluid">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="small-post-content">
+                                                                    <div class="mg-blog-category">
+                                                                        <a class="newsup-categories category-color-1" href="https://www.kcmc.ac.tz/news/1" alt="View all posts in News">
+                                                                            News
+                                                                        </a> </div>
+                                                                    <div class="title_small_post">
+
+
+                                                                        <a style="color:#212529" href="https://www.kcmc.ac.tz/news/1">
+                                                                            UZINDUZI WA KLINIKI YA MOYO YA WANAWAKE </a>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                                                           
+                                                                 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- end 1 -->
+                                    <div id="tan-main-banner-latest-trending-popular-popular" role="tabpanel" class="tab-pane">
+                                        <div class="mg-posts-sec mg-posts-modul-2">
+                                            <div class="mg-posts-sec-inner row">
+                                                <div class="small-list-post col-lg-12">
+                                                                                                                                                                                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div id="tan-main-banner-latest-trending-popular-categorised" role="tabpanel" class="tab-pane">
+                                        <div class="mg-posts-sec mg-posts-modul-2">
+                                            <div class="mg-posts-sec-inner row">
+                                                <div class="small-list-post col-lg-12">
+
+                                                    No news yet for this category....
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                </div></aside><!-- #secondary -->
+
+            </aside>
+        </div>
+    </div>
+</section>
+
+<!-- <section class="w3l-features-photo-7 py-3">
+        <div class="w3l-features-photo-7_sur py-lg-1 py-sm-3">
+            <div style="
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+">
+                <div class="row">
+                    <div class="col-lg-8 w3l-features-photo-7_top-left">
+                        <h4 style="margin-bottom:10px !important">Your Health. Our Priority!
+                        </h4>
+                        <p class="worksanfont">One of the key factors that distinguish a thriving community is its ability to deliver excellent
+                            medical care to every resident and community member in which it serves. If the character of a
+                            community is defined by many factors, how well it answers the health care needs of its
+                            population is surely one of the most important. Simply put, quality comprehensive health care is
+                            a right!
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-8 content-left">
+                                <h4 style="margin-bottom: 2px !important">Our Vision</h4>
+                                <p class="mb-1 worksanfont">A super specialized hospital touching and changing lives.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8 content-left">
+                                <h4 style="margin-bottom: 2px !important">Our Mission</h4>
+                                <p class="mb-1 worksanfont">To provide accessible, reliable and people-centered high-quality health
+                                    care services, training and research outputs. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 w3l-features-photo-7_top-right mt-lg-0 mt-4 text-center">
+                        <img src="https://www.kcmc.ac.tz/images/administration/gileard.JPG" class="img-fluid text-center" alt="" />
+                        <p class="worksanfont">Prof. Gileard Masenga</p>
+                        <i>Executive Director Kilimanjaro Christian Medical Centre</i>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </div>
+    </section> -->
+
+<!-- services page block 1 -->
+<!-- <section class="w3l-counter-6" >
+        /counter-6-->
+<!-- <div class="conuter-66-info py-5" style="background-color:#fff !important">
+            <div class="container py-lg-2">
+                <h3 class="title text-center mb-4"> Our <span style="border-bottom: 3px solid #5b81ce;  padding-right: 5px; padding-left: 5px;"> Core  </span>values</h3>
+          
+                
+                       
+                            <img src="https://www.kcmc.ac.tz/images/wa.png" class="img-fluid zoomed ">
+           
+              
+            </div>
+        </div>
+    </section> -->
+
+
+<!-- ad div -->
+<!-- services page block 1 -->
+<section class="real_people_stories_section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 text-center col-md-offset-3 people_stories_title_box text-center">
+                <h2 class="section_title">
+                    Our Latest Posts
+                </h2>
+                <div class="slogan-img"><img src="https://medihealgroup.com/wp-content/themes/mediheal/images/blue-slogan.png"></div>
+                <p>
+                    Catch up with us on social media. Check out our most recent posts and stay engaged with our online
+                    world.
+                </p>
+            </div>
+            <div id="people_stories_slider" class="owl-carousel owl-theme col-md-12 people_stories_content_box" style="opacity: 1; display: block;">
+                <!-- Static Carousel Items -->
+
+
+                <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 6520px; left: 0px; display: block; transition: 800ms; transform: translate3d(-652px, 0px, 0px);"><div class="owl-item" style="width: 652px;"><div class="item" style="margin:10px">
+                    <div class="real_story_box">
+                        <figure class="rounded">
+                            <a title="click to view" class="btn" href="https://www.kcmc.ac.tz/images/flyers/Dkt Peter Shija.jpg" data-lity="" data-caption="" data-fancybox="event-gallery">
+                                <img src="https://www.kcmc.ac.tz/images/flyers/Dkt Peter Shija.jpg" alt="" class="rounded">
+                            </a>
+                        </figure>
+                    </div>
+                </div></div><div class="owl-item" style="width: 652px;"><div class="item" style="margin:10px">
+                    <div class="real_story_box">
+                        <figure class="rounded">
+                            <a title="click to view video" class="btn" href="https://www.kcmc.ac.tz/images/flyers/DR MARIANNE.jpg" data-lity="" data-caption="" data-fancybox="event-gallery">
+                                <img src="https://www.kcmc.ac.tz/images/flyers/DR MARIANNE.jpg" alt="" class="rounded">
+                            </a>
+                        </figure>
+                        <!-- <a href="https://www.instagram.com/p/CxIL3CbNyxp/?img_index=1">
+                            <label class="font-familiy">Kutana na Daktari Bingwa Mbobezi Dkt. Tom Kakumbi wa huduma za
+                                Uzazi saidizi na
+                                upandikizaji - KCMC</label>
+                        </a> -->
+
+                    </div>
+                </div></div><div class="owl-item" style="width: 652px;"><div class="item" style="margin:10px">
+                    <div class="real_story_box">
+                        <figure class="rounded">
+                            <a title="click to view video" class="btn" href="https://www.kcmc.ac.tz/images/flyers/madaktari na huduma surgical.jpg" data-lity="" data-caption="" data-fancybox="event-gallery">
+                                <img src="https://www.kcmc.ac.tz/images/flyers/madaktari na huduma surgical.jpg" alt="" class="rounded">
+                            </a>
+                        </figure>
+                        <!-- <a href="https://www.instagram.com/p/CxIL3CbNyxp/?img_index=1">
+                            <label class="font-familiy">Kutana na Daktari Bingwa Mbobezi Dkt. Tom Kakumbi wa huduma za
+                                Uzazi saidizi na
+                                upandikizaji - KCMC</label>
+                        </a> -->
+
+                    </div>
+                </div></div><div class="owl-item" style="width: 652px;"><div class="item" style="margin:10px">
+                    <div class="real_story_box">
+                        <figure class="rounded">
+                            <a title="click to view video" class="btn" href="https://www.kcmc.ac.tz/images/flyers/OG huduma.jpg" data-lity="" data-caption="" data-fancybox="event-gallery">
+                                <img src="https://www.kcmc.ac.tz/images/flyers/OG huduma.jpg" alt="" class="rounded">
+                            </a>
+                        </figure>
+                        <!-- <a href="https://www.instagram.com/p/CxIL3CbNyxp/?img_index=1">
+                            <label class="font-familiy">Kutana na Daktari Bingwa Mbobezi Dkt. Tom Kakumbi wa huduma za
+                                Uzazi saidizi na
+                                upandikizaji - KCMC</label>
+                        </a> -->
+
+                    </div>
+                </div></div><div class="owl-item" style="width: 652px;"><div class="item" style="margin:10px">
+                    <div class="real_story_box">
+                        <figure class="rounded">
+                            <a title="click to view video" class="btn" href="https://www.kcmc.ac.tz/images/flyers/Sr Minde.jpg" data-lity="" data-caption="" data-fancybox="event-gallery">
+                                <img src="https://www.kcmc.ac.tz/images/flyers/Sr Minde.jpg" alt="" class="rounded">
+                            </a>
+                        </figure>
+                        <!-- <a href="https://www.instagram.com/p/CxIL3CbNyxp/?img_index=1">
+                            <label class="font-familiy">Kutana na Daktari Bingwa Mbobezi Dkt. Tom Kakumbi wa huduma za
+                                Uzazi saidizi na
+                                upandikizaji - KCMC</label>
+                        </a> -->
+
+                    </div>
+                </div></div></div></div>
+
+                
+
+                
+
+
+           
+
+                
+
+                
+
+           
+                <!-- Add more static carousel items here as needed -->
+            <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page"><span class=""></span></div><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
+            <div class="col-md-12 all_btn_section text-center">
+                <a href="https://www.instagram.com/kcmc1971/" class="all_view_btn">
+                    View All
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- services page block 1  logo-en-us.svg-->
+<!-- //apply-6-->
+<section class="w3l-call-to-action_9 py-3 mb-4">
+    <div class="container-fluid">
+        <div class="main-cont-wthree-2">
+            <div class="left-contect-calls text-center">
+                <h3 class="title mb-sm-5 mb-4"> collaborators &amp; Partners</h3>
+                <div class="row">
+                    
+                      <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.northumbria.nhs.uk/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/NHS.png" class="img-fluid" alt="" style="max-width: 60%; max-height: 60%; object-fit: contain;">
+                        </a>
+                    </div>
+                    
+                      <div class="col-md-6 col-lg-3 mb-5">
+                        <a href="#" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/church-of-sweden-269x300.jpg" class="img-fluid" alt="" style="max-width: 25%; max-height: 30%; object-fit: contain; object-position: top;">
+                        </a>
+                    </div>
+                    
+                           <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.radboudumc.nl/en/research" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/logo-en-us.svg" class="img-fluid" alt="" style="max-width: 60%; max-height: 30%; object-fit: contain;">
+                        </a>
+                    </div>
+                    
+                     <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://duke.edu/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/Duke_University_logo.svg.png" class="img-fluid" alt="" style="max-width: 60%; max-height: 60%; object-fit: contain;">
+                        </a>
+                    </div>
+                    <!--emma.png-->
+                    
+                        <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.cbm.org/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/cbm-logo.svg" class="img-fluid" alt="" style="max-width: 60%; max-height: 60%; object-fit: contain;">
+                        </a>
+                    </div>
+                    
+                     <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://eamaf.org/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/emma.png" class="img-fluid" alt="" style="max-width: 60%; max-height: 60%; object-fit: contain;">
+                        </a>
+                    </div>
+                    
+                     <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.bread.org/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/bread_header_logo.svg" class="img-fluid" alt="" style="display:block; max-width: 60%; max-height: 50%; object-fit: contain; margin:auto; padding-top:34px">
+                        </a>
+                    </div>
+                    
+                     
+                    
+                    <!--https://mission-einewelt.de/-->
+                    
+                      <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.churchofjesuschrist.org/?lang=eng" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/SymbolofLatter-daySaintchurch.png" class="img-fluid" alt="" style="display:block; max-width: 20%; max-height: 10%; object-fit: contain; margin:auto; padding-top:0px">
+                        </a>
+                    </div>
+                    
+                     <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://mission-einewelt.de/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/Logo-MEW.png" class="img-fluid" alt="" style="display:block; max-width: 60%; max-height: 50%; object-fit: contain; margin:auto; padding-top:10px">
+                        </a>
+                    </div>
+                       
+                            
+                    
+                    <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://tanzaniacancercare.org/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/cancer.png" class="img-fluid" alt="" style="max-width: 60%; max-height: 60%; object-fit: contain;">
+                        </a>
+                    </div>
+                    
+                      <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.takeda.com/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/Takeda_Pharmaceutical_Company_logo.svg.png" class="img-fluid" alt="" style="display:block; max-width: 60%; max-height: 50%; object-fit: contain; margin:auto; padding-top:20px">
+                        </a>
+                    </div>
+                    
+                    <!-- https://www.accaglobal.com/gb/en.html logofelow.svg-->
+    
+             <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.zgt.nl/over-zgt/maatschappelijk-beleid/zgt-overzee/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/ZGT.png" class="img-fluid" alt="" style="max-width: 60%; max-height: 60%; object-fit: contain;">
+                        </a>
+                    </div>
+                    
+                     <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.globalheartcarefoundation.org" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/moyo.png" class="img-fluid" alt="" style="max-width: 60%; max-height: 60%; object-fit: contain;">
+                        </a>
+                    </div>
+                    
+                      <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.accaglobal.com/gb/en.html" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/logofelow.svg" class="img-fluid" alt="" style="display:block; max-width: 60%; max-height: 50%; object-fit: contain; margin:auto; padding-top:20px">
+                        </a>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.uab.edu/home/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/alabama.png" class="img-fluid" alt="" style="display:block; max-width: 60%; max-height: 50%; object-fit: contain; margin:auto; padding-top:35px !important">
+                        </a>
+                    </div>
+                    
+                       <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.vumc.org/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/vanderbilt_university_logo1.jpg" class="img-fluid" alt="" style="display:block; max-width: 60%; max-height: 50%; object-fit: contain; margin:auto; padding-bott:0px !important">
+                        </a>
+                    </div>
+                    
+                       
+                    
+                    <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.mwika.nl/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/MWIKA.png" class="img-fluid" alt="" style="max-width: 60%; max-height: 60%; object-fit: contain;">
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://crdbbank.co.tz/en" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/crdb.png" class="img-fluid" alt="" style="max-width: 80%; max-height: 60%; object-fit: contain;">
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.nmbbank.co.tz/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/nmb1.jpg" class="img-fluid" alt="" style="max-width: 60%; max-height: 60%; object-fit: contain;">
+                        </a>
+                    </div>
+                    <!-- Barrow_Logo-->
+
+                    <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.nhif.or.tz/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/nhif.png" class="img-fluid" alt="" style="max-width: 60%; max-height: 60%; object-fit: contain;">
+                        </a>
+                    </div>
+                    
+                       <div class="col-md-6 col-lg-3 mb-3">
+                        <a href="https://www.barrowneuro.org/" class="d-block">
+                            <img src="https://www.kcmc.ac.tz/images/collaborators/Barrow_Logo.png" class="img-fluid" alt="" style="max-width: 60%; max-height: 60%; object-fit: contain;">
+                        </a>
+                    </div>
+                    
+                    
+                    
+                    
+                   
+
+                    <!-- Add similar structure for other items -->
+     
+
+   
+
+                    <!-- Add more items as needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!--  -->
+
+<!-- 22f0b836ed8df4d6530031f4125958a1da642fd52fee1097a941e8f559ff7ae8 -->
+
+    <footer class="footer" style="background-color: #242870; color: #fff;">
+  <div class="container">
+    <div class="row py-4">
+      <div class="col-md-3">
+        <h6 class="footer-title-kcmc">Contact information</h6>
+     <ul class="">
+                            <li>
+                                <p class=""> Kilimanjaro Christian Medical Centre,<br>
+                                    PO Box 3010,
+                                    <br>Moshi, Tanzania.
+                                </p>
+                            </li>
+                            <li class="mt-4">
+                                <p class=""><span class="fa fa-phone"></span> <a href="tel:+255 27 2754377">+255 27 2754377</a>
+                                </p>
+                                <p><span class="fa fa-phone"></span> <a href="tel:+255 27 2754380">+255 27 2754380</a></p>
+                            </li>
+                            <li>
+                                <p class=""><span class="fa fa-envelope"></span> <a href="mailto: kcmcadmin@kcmc.ac.tz">
+                                        kcmcadmin@kcmc.ac.tz</a></p>
+                            </li>
+                           
+                        </ul>
+      </div>
+      <div class="col-md-3">
+     
+        <h6 class="footer-title-kcmc">Follow Us</h6>
+        <ul>
+                    <li><a class="facebook" href="https://web.facebook.com/Kilimanjaro-Christian-Medical-Centre-KCMC-1754647511505077/?modal=admin_todo_tour" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+                            <li><a class="insta" href="https://www.instagram.com/kcmc1971/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
+                                        <li>
+                                            <a href="https://www.twitter.com/kcmc1971/" class="insta">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="20" **height="24" **="" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+&nbsp; &nbsp; <path d="M 17.884 19.496 L 38.925 47.63 L 17.751 70.504 h 4.765 l 18.538 -20.027 l 14.978 20.027 h 16.217 L 50.024 40.788 l 19.708 -21.291 h -4.765 L 47.895 37.94 L 34.101 19.496 H 17.884 z M 24.892 23.006 h 7.45 L 65.24 66.993 h -7.45 L 24.892 23.006 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(221, 221, 221); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+&nbsp; &nbsp; <path d="M 71.01 90 H 18.99 C 8.519 90 0 81.481 0 71.01 V 18.99 C 0 8.519 8.519 0 18.99 0 h 52.02 C 81.481 0 90 8.519 90 18.99 v 52.02 C 90 81.481 81.481 90 71.01 90 z M 18.99 3 C 10.173 3 3 10.173 3 18.99 v 52.02 C 3 79.827 10.173 87 18.99 87 h 52.02 C 79.827 87 87 79.827 87 71.01 V 18.99 C 87 10.173 79.827 3 71.01 3 H 18.99 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(221, 221, 221); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg>
+kcmc1971
+
+
+                                            </a>
+                                       
+    </li>
+
+                      
+                        </ul>
+      </div>
+      <div class="col-md-3 mt-2">
+      <h6 class="footer-title-kcmc">Important Links</h6>
+                        <ul>
+                            <li><a href="https://kcmuco.ac.tz/" target="_blank">Kilimanjaro Christian Medical University College</a>
+                            </li>
+                            <li><a href="http://www.kcri.ac.tz/" target="_blank">Kilimanjaro Clinical Research Institute (KCRI)</a></li>
+                            
+                            <li><a href="https://www.moh.go.tz/" target="_blank">Ministry of Health and Social Welfare</a></li>
+                            
+                            <li><a href="https://www.saintlukefoundation.org/" target="_blank">Saint Luke Foundation </a></li>
+                            <!-- <li><a href="http://www.jmp.or.tz/" target="_blank">Joint Malaria Programme (JMP) </a></li>
+                            <li><a href="http://www.tatcot.org/" target="_blank">Training Centre for Orthopaedic Technologists (TATCOT)
+                                </a></li> -->
+                            <!-- <li><a href="https://spark.adobe.com/page/0bLsn/" target="_blank">The Medical Education Partnership
+                                    Initiative (MEPI) </a></li>
+                            <li><a href="https://rdtc.go.tz" target="_blank">Regional Dermatology Training Center </a></li>
+                            <li><a href="https://www.uwcea.org/?doing_wp_cron=1603532374.2535789012908935546875" target="_blank">UWC
+                                    East Africa-International School Moshi </a></li>
+                            <li><a href="https://www.saintlukefoundation.org/" target="_blank">Saint Luke Foundation </a></li> -->
+                        </ul>
+      </div>
+      <div class="col-md-3">
+      <h6 class="footer-title-kcmc">Collaborators</h6>
+                        <ul>
+                            <li><a href="https://tanzaniacancercare.org/" target="_blank">Foundation for Cancer Care in Tanzania </a></li>
+                            <li><a href="https://www.northumbria.nhs.uk/" target="_blank">Northumbria Healthcare NHS Foundation Trust</a></li>
+                            <li><a href="https://www.mwika.nl/" target="_blank">MWIKA </a></li>
+                        </ul>
+      </div>
+    </div>
+    <div class=" pb-1">
+            <div class="container">
+                <p class=" text-center footer-copy-right">Copyright © 2024 KCMC. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+  </div>
+</footer>
+
+<section class="w3l-medpill-footer ">
+   
+    <!-- move top -->
+     <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        ⤴
+    </button>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css">
+    <script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer=""></script>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- /move top -->
+
+    <script src="https://www.kcmc.ac.tz/js/jquery-3.3.1.min.js"></script>
+
+   
+
+    <!-- video popup -->
+  
+    <!-- //video popup -->
+
+    <script src="https://www.kcmc.ac.tz/js/owl.carousel.js"></script>
+    <!-- script for banner slider-->
+   
+    <!-- //script -->
+
+    <!-- disable body scroll which navbar is in active -->
+  
+    <!-- disable body scroll which navbar is in active -->
+
+    <script src="https://www.kcmc.ac.tz/js/bootstrap.min.js"></script>
+    
+<script>
+       $("body").on("contextmenu",function(e){
+     return false;
+});
+</script>
+</section>
+    <script type="text/javascript" src="https://bmc.go.tz/public/bmc/bootstrap-5.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://bmc.go.tz/public/bmc/md-bootstrap/js/mdb.min.js"></script>
+<script>
+
+import hotwiredTurbo from 'https://cdn.skypack.dev/@hotwired/turbo';
+
+</script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+     
+     <script src="https://www.kcmc.ac.tz/js/js-marquee.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script>
+
+ 
+    (function($) {
+  "use strict";
+jQuery(window).on('load', function() {  
+  // Enable Hover for Bootstrap Nav Dropdowns
+  jQuery('.dropdown-toggle').keyup(function(e) {
+    if (e.keyCode == 9) {
+        $(this).dropdown('toggle');
+    }
+});
+});
+
+
+/* =================================
+===        STICKY HEADER        ====
+=================================== */
+function homefeatured() {
+  jQuery(".featuredcat").owlCarousel({
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+      pagination: false,
+    items : 3,
+    itemsDesktop : [1199,1],
+    itemsDesktopSmall : [979,2],
+    navigation : false,
+    navigationText: [
+            "<i class='fa fa-angle-left'></i>",
+            "<i class='fa fa-angle-right'></i>"
+        ]
+  });
+}
+
+homefeatured();
+
+
+function homemain() {
+  jQuery("#homemain").owlCarousel({
+    autoPlay: 8000, //Set AutoPlay to 3 seconds
+    singleItem:true,
+    pagination: false,
+    navigation : true,
+    navigationText: [
+            "<i class='fa fa-angle-left'></i>",
+            "<i class='fa fa-angle-right'></i>"
+        ]
+  });
+}
+homemain(); 
+function people_stories_slider() {
+    jQuery("#people_stories_slider").owlCarousel({
+      items: 3,
+    itemsDesktop : [1199,3],
+    itemsDesktopSmall : [979,2],
+
+  
+  itemsTabletSmall: [900, 1],
+        
+        rewindNav: true,
+        autoPlay: 5000,
+      
+        stopOnHover: true,
+        navigationText: [
+            "<i class='fa fa-angle-left'></i>",
+            "<i class='fa fa-angle-right'></i>"
+        ]
+    });
+}
+
+people_stories_slider();
+
+// post crousel
+function postcrousel() {
+  jQuery(".postcrousel").owlCarousel({
+     autoPlay: 3000, //Set AutoPlay to 3 seconds
+    items : 1,
+    itemsDesktop : [1199,1],
+    itemsDesktopSmall : [979,2],
+    pagination : false,
+    navigation : true,
+    navigationText: [
+            "<i class='fa fa-angle-left'></i>",
+            "<i class='fa fa-angle-right'></i>"
+        ]
+  });
+}
+postcrousel(); 
+
+// colmnthree crousel
+function colmnthree() {
+  jQuery(".call-grids-w3").owlCarousel({
+     autoPlay: 3000, //Set AutoPlay to 3 seconds
+    items : 3,
+    itemsDesktop : [1199,3],
+    itemsDesktopSmall : [979,2],
+    pagination : false,
+   
+  });
+}
+colmnthree();
+
+
+
+// realatedpost
+function realatedpost() {
+  jQuery(".realatedpost").owlCarousel({
+     autoPlay: 3000, //Set AutoPlay to 3 seconds
+    items : 3,
+    itemsDesktop : [1199,3],
+    itemsDesktopSmall : [979,2],
+    pagination : false,
+    navigation : true,
+    navigationText: [
+            "<i class='fa fa-angle-left'></i>",
+            "<i class='fa fa-angle-right'></i>"
+        ]
+  });
+}
+realatedpost(); 
+// realatedpost
+
+/* =================================
+===         SCROLL TOP       ====
+=================================== */
+
+function marquee() {
+  jQuery('.marquee').marquee({
+  speed: 10,
+  direction: 'left',
+  delayBeforeStart: 0,
+  duplicated: true,
+  pauseOnHover: true,
+  startVisible: true
+  });
+}
+marquee();
+})(jQuery);
+
+function colmnthree() {
+  jQuery(".colmnthree").owlCarousel({
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+      pagination: false,
+    items : 1,
+    itemsDesktop : [1199,1],
+    itemsDesktopSmall : [979,1],
+    navigation : false,
+    navigationText: [
+            "<i class='fa fa-angle-left'></i>",
+            "<i class='fa fa-angle-right'></i>"
+        ]
+  });
+}
+colmnthree();
+
+
+  </script>
+      
+      
+
+
+
+</div></body></html>
